@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import { Route, NavLink, HashRouter, Link } from "react-router-dom";
+import { Button } from './button'
+import {  Route, NavLink, HashRouter, Link, Form } from "react-router-dom";
 function Navbar() {
   const [Click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -58,7 +59,9 @@ function Navbar() {
               >
               ثبت نام
               </Link>
-              <li className="nav-item">
+             
+            </li>
+            <li className="nav-item">
               <Link
               to="/"
               className="nav-links"
@@ -67,9 +70,8 @@ function Navbar() {
               خانه
               </Link>
             </li>
-            </li>
           </ul>
-          {button && <button buttonStyle="btn--outline">ثبت نام</button>}
+          {button && <Button buttonStyle="btn--outline">ثبت نام</Button>}
         </div>
       </nav>
     </>
