@@ -1,10 +1,11 @@
 import React from 'react';
 import "../../App.css"
 import Herosection from "../Herosection"
+import Slider from "../Slideshow"
 function Home(){
     return(
         <>
-        <Herosection/>
+        <Slider/>
         </>
     )
 }
