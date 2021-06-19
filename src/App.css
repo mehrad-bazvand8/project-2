@@ -4,10 +4,7 @@
   padding: 0;
   font-family: 'PT Sans', sans-serif;
 }
-body{
-  background: linear-gradient(90deg, rgb(8, 40, 54) 0%, rgb(26, 23, 23) 100%);
 
-}
 .home,
 .services,
 .products,
