@@ -34,7 +34,7 @@ function Navbar() {
                 <input
                   type="search"
                   className="nav-input"
-                  placeholder="Type query"
+                  placeholder="جست و جو محصولات"
                   aria-label="Search"
                 />
                 <Button className="nav-Search-button" buttonStyle="btn--Search">

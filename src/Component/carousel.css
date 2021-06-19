@@ -1,0 +1,29 @@
+.container-carousel {
+  width: 100%;
+  background-color: rgba(132, 160, 151, 0.116);
+  height: 400px;
+  margin-top: 300px;
+}
+.carousel {
+  width: 95%;
+  text-align: center;
+}
+.carousel-item {
+  width: 400px;
+  height: 350px;
+ margin: 50px;
+}
+.img-carousel{
+  width:400px ;
+  height: 320px;
+
+}
+@media screen and (max-width: 960px) {
+  .container-carousel {
+    width: 100%;
+    background-color: rgba(132, 160, 151, 0.116);
+    height: 400px;
+    margin-top: 0;
+
+  }
+}

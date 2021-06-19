@@ -7,6 +7,7 @@ const slideImages = [
   "/img/slidshodow2.jpg",
   "/img/slideshow3.jpg",
 ];
+
 const Slideshow = () => {
   return (
     <div className="slide-container">
