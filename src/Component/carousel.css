@@ -1,22 +1,96 @@
 .container-carousel {
   width: 100%;
-  background-color: rgba(132, 160, 151, 0.116);
-  height: 400px;
-  margin-top: 300px;
+  background-color: rgba(14, 14, 14, 0.116);
+  height: 560px;
+  margin-top: 250px;
 }
 .carousel {
+  height: 600px;
+
   width: 95%;
   text-align: center;
 }
 .carousel-item {
   width: 400px;
-  height: 350px;
+  height: 400px;
  margin: 50px;
 }
 .img-carousel{
-  width:400px ;
+  width:300px ;
   height: 320px;
+  position: absolute;
 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 450px;
+  margin-top: -20px;
+
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card h1{
+  width: 100%;
+  float: right;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+.card p{
+  width: 100%;
+  float: right;
+  margin-top: 10px;
+  font-size: 15px;
+  color: black;
+}
+.price-through{
+  width: 100%;
+  float: right;
+  margin-top: 10px;
+  font-size: 15px;
+  opacity: 0.5;
+  text-decoration: line-through;
+
+}
+.carousel-Discount {
+  float: left;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  width: 20%;
+  margin-top: 270px;
+  font-size: 18px;
+}
+.btn-carousel{
+  float: right;
+  background-color: #2b2b2b; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.card button:hover {
+  opacity: 0.7;
 }
 @media screen and (max-width: 960px) {
   .container-carousel {
