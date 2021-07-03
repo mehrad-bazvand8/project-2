@@ -1,16 +1,16 @@
 import React from 'react';
 import "../../App.css"
 import Slider from "../Slideshow"
-import Carousel from "../carousel" 
+import HomeSimpleSlider from "../HomeSimpleSlider" 
 import SimpleTabs from "../categorytabs"
-import Carousel2 from "../carousel2" 
+import Homebanners from "../Homebanners"
 function Home(){
     return(
         <>
         <Slider/>
-        <Carousel/>
+        <HomeSimpleSlider/>
         <SimpleTabs/>
-        <Carousel2/>
+        <Homebanners/>
         </>
     )
 }

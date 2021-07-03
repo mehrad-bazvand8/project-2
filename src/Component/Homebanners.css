@@ -1,0 +1,27 @@
+.Homebanners{
+    display: flex;
+    
+}
+.Homebanners-div1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+}
+.Homebanners-img{
+    width: 90%;
+    height: 300px;
+}
+@media screen and (max-width: 960px) {
+    .Homebanners{
+        display: flex;
+        margin-top: 700px;
+        flex-direction: column;
+    }
+    .Homebanners-div1{
+        display: flex;
+        width: 95%;
+        height: 350px;
+        justify-content: space-around;
+    }
+}

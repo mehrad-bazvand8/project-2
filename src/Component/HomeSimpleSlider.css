@@ -1,28 +1,29 @@
-.container-carousel {
+.container-HomeSimpleSlider {
   width: 100%;
   background-color: rgba(14, 14, 14, 0.116);
   height: 560px;
   margin-top: 250px;
 }
-.carousel {
+
+.HomeSimpleSlider1 {
   height: 600px;
 
   width: 95%;
   text-align: center;
 }
-.carousel-item {
+.HomeSimpleSlider1-item {
   width: 400px;
   height: 400px;
  margin: 50px;
 }
-.img-carousel{
+.HomeSimpleSlider1-img{
   width:300px ;
   height: 320px;
   position: absolute;
 
 }
 
-.card {
+.HomeSimpleSlider1-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -37,14 +38,14 @@
   color: grey;
   font-size: 22px;
 }
-.card h1{
+.HomeSimpleSlider1-card h1{
   width: 100%;
   float: right;
   margin-top: 10px;
   font-size: 20px;
 
 }
-.card p{
+.HomeSimpleSlider1-card p{
   width: 100%;
   float: right;
   margin-top: 10px;
@@ -60,7 +61,7 @@
   text-decoration: line-through;
 
 }
-.carousel-Discount {
+.SimpleSlider1-Discount {
   float: left;
   border: none;
   outline: 0;
@@ -93,31 +94,33 @@
   opacity: 0.7;
 }
 @media screen and (max-width: 960px) {
-  .container-carousel {
+  .container-HomeSimpleSlider {
     width: 100%;
     background-color: rgba(132, 160, 151, 0.116);
     height: 400px;
     margin-top: 0;
-
   }
-  .img-carousel{
+ 
+
+  
+  .HomeSimpleSlider1-img{
     width:100px ;
     height: 200px;
     position: absolute;
   
   }
-  .carousel-item {
-    width: 100px;
-    height: 25000px;
-   margin: 50px;
+  .HomeSimpleSlider1-item {
+    width: 150px;
+    height: 300px;
+    margin: 50px;
   }
-  .card {
+  .HomeSimpleSlider1-card {
     max-width: 100px;
     height: 250px;
     margin-top: -20px;
-  
+    margin-left: 20px;
   }
-  .carousel-Discount {
+  .SimpleSlider1-Discount {
     float: left;
     border: none;
     outline: 0;
@@ -131,14 +134,14 @@
     margin-top: 200px;
     font-size: 18px;
   }
-  .card h1{
+  .HomeSimpleSlider1-card h1{
     width: 100%;
     float: right;
     margin-top: 10px;
     font-size: 20px;
   
   }
-  .card p{
+  .HomeSimpleSlider1-card p{
     width: 100%;
     float: right;
     margin-top: 10px;
